@@ -1,0 +1,33 @@
+{
+  "name": "devschoola",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "Custom_js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "webpack js/Custom_JS.js dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasrkamel/DevEschoola.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Mahmoud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nasrkamel/DevEschoola/issues"
+  },
+  "homepage": "https://github.com/nasrkamel/DevEschoola#readme",
+  "devDependencies": {
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6",
+    "bootstrap": "^4.2.1",
+    "skitter-slider": "^5.1.4"
+  }
+}
